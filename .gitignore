@@ -1,0 +1,6 @@
+# Material inicial del profesor (solo local)
+.context/
+
+# Artefactos de compilacion y configuracion local
+*.o
+hosts.txt

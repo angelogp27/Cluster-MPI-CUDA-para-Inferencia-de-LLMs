@@ -1,0 +1,8 @@
+# hosts.txt -- lo edita SOLO el lanzador. Un nodo por linea, slots=1 (1 GPU por nodo).
+# La PRIMERA linea debe ser la maquina del lanzador (salida de: hostname).
+# Las demas usan el alias definido en ~/.ssh/config (ver guia_lanzador.md, paso 4).
+# Maximo 4 lineas; lanzar.sh usa 1, 2 o 4 (con 3 nodos usa los 2 primeros).
+lanzador slots=1
+nodo2 slots=1
+nodo3 slots=1
+nodo4 slots=1
